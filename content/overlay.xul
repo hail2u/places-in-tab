@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE overlay SYSTEM "chrome://show-all-history-in-tab/locale/overlay.dtd">
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+  id="show-all-history-in-tab-overlay">
+  <script src="chrome://show-all-history-in-tab/content/overlay.js"/>
+
+  <menupopup id="goPopup">
+    <menuitem id="menu_showAllHistoryInTab"
+      label="&show-all-history-in-tab.command.label;"
+      insertafter="menu_showAllHistory"
+      key="key_showAllHistoryInTab"
+      onclick="checkForMiddleClick(this, event)"
+      oncommand="showAllHistoryInTab.showLibrary(event);"/>
+  </menupopup>
+
+  <keyset id="mainKeyset">
+    <key id="key_showAllHistoryInTab"
+      modifiers="accel alt"
+      key="H"
+      oncommand="showAllHistoryInTab.showLibrary();"/>
+  </keyset>
+</overlay>

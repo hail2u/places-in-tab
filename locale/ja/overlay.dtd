@@ -1,0 +1,3 @@
+<!ENTITY show-all-history-in-tab.command.label     "すべての履歴をタブに表示">
+<!ENTITY show-all-history-in-tab.command.accesskey "S">
+<!ENTITY show-all-history-in-tab.command.tooltip   "最近表示したページの履歴をタブに表示します">

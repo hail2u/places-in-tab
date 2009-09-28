@@ -1,0 +1,5 @@
+content	show-all-history-in-tab	content/
+overlay	chrome://browser/content/browser.xul	chrome://show-all-history-in-tab/content/overlay.xul
+
+locale	show-all-history-in-tab	en-US	locale/en-US/
+locale	show-all-history-in-tab	ja	locale/ja/
