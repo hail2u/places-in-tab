@@ -2,7 +2,10 @@
 <!DOCTYPE overlay SYSTEM "chrome://places-in-tab/locale/overlay.dtd">
 <overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
   id="places-in-tab-overlay">
-  <script src="chrome://places-in-tab/content/overlay.js"/>
+  <script type="application/javascript"
+    src="chrome://places-in-tab/content/overlay.js"/>
+  <script type="application/javascript"
+    src="chrome://global/content/nsUserSettings.js"/>
 
   <menupopup id="goPopup">
     <menuitem id="menu_placesInTab_showHistory"
