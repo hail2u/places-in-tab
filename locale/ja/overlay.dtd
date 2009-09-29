@@ -1,3 +1,5 @@
-<!ENTITY show-all-history-in-tab.command.label     "すべての履歴をタブに表示">
-<!ENTITY show-all-history-in-tab.command.accesskey "S">
-<!ENTITY show-all-history-in-tab.command.tooltip   "最近表示したページの履歴をタブに表示します">
+<!ENTITY places-in-tab.bookmark.command.label   "ブックマークの管理をタブに表示">
+<!ENTITY places-in-tab.bookmark.command.tooltip "ブックマークをタブに表示します">
+
+<!ENTITY places-in-tab.history.command.label   "すべての履歴をタブに表示">
+<!ENTITY places-in-tab.history.command.tooltip "最近表示したページの履歴をタブに表示します">

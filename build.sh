@@ -3,8 +3,8 @@
 # build.sh - tiny bash script for packaging Firefox extension
 # based on: http://kb.mozillazine.org/Bash_build_script
 
-NAME=show-all-history-in-tab
-DIRS="content locale"
+NAME=places-in-tab
+DIRS="content locale modules"
 FILES="LICENSE"
 TEMP_DIR=build
 

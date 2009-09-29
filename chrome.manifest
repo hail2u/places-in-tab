@@ -1,5 +1,7 @@
-content	show-all-history-in-tab	content/
-overlay	chrome://browser/content/browser.xul	chrome://show-all-history-in-tab/content/overlay.xul
+content	places-in-tab	content/
+overlay	chrome://browser/content/browser.xul	chrome://places-in-tab/content/overlay.xul
 
-locale	show-all-history-in-tab	en-US	locale/en-US/
-locale	show-all-history-in-tab	ja	locale/ja/
+locale	places-in-tab	en-US	locale/en-US/
+locale	places-in-tab	ja	locale/ja/
+
+resource	places-in-tab	modules/

@@ -77,7 +77,7 @@
         persist="width height screenX screenY sizemode">
 
   <script type="application/x-javascript"
-          src="chrome://show-all-history-in-tab/content/places.js"/>
+          src="chrome://places-in-tab/content/places.js"/>
   <script type="application/javascript"
           src="chrome://browser/content/utilityOverlay.js"/>
   <script type="application/javascript"

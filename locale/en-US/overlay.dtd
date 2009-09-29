@@ -1,3 +1,5 @@
-<!ENTITY show-all-history-in-tab.command.label     "Show All History in Tab">
-<!ENTITY show-all-history-in-tab.command.accesskey "S">
-<!ENTITY show-all-history-in-tab.command.tooltip   "Display pages you've viewed recently in tab">
+<!ENTITY places-in-tab.bookmark.command.label   "Organize Bookmarks in Tab">
+<!ENTITY places-in-tab.bookmark.command.tooltip "Display your bookmarks">
+
+<!ENTITY places-in-tab.history.command.label   "Show All History in Tab">
+<!ENTITY places-in-tab.history.command.tooltip "Display pages you've viewd recently">

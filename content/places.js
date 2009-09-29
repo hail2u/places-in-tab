@@ -61,9 +61,12 @@ var PlacesOrganizer = {
     this._content = document.getElementById("placeContent");
     this._initFolderTree();
 
-    var leftPaneSelection = "History"; // default to all-bookmarks
+    var leftPaneSelection = "AllBookmarks"; // default to all-bookmarks
     if ("arguments" in window && window.arguments.length > 0)
       leftPaneSelection = window.arguments[0];
+
+    Components.utils.import("resource://places-in-tab/vars.js");
+    leftPaneSelection = query.leftPane;
 
     this.selectLeftPaneQuery(leftPaneSelection);
     // clear the back-stack

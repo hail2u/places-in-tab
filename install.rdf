@@ -2,12 +2,12 @@
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest">
-    <em:id>show-all-history-in-tab@hail2u.net</em:id>
-    <em:name>Show All History in Tab</em:name>
+    <em:id>places-in-tab@hail2u.net</em:id>
+    <em:name>Places in Tab</em:name>
     <em:version>0.1</em:version>
-    <em:description>Display pages you've viewd recently in tab instead of window.</em:description>
+    <em:description>Display your bookmarks or pages you've viewd recentry (history) in tab instead of window like Safari.</em:description>
     <em:creator>Kyo Nagashima</em:creator>
-    <em:homepageURL>http://hail2u.net/archives/fxexts.html#show-all-history-in-tab</em:homepageURL>
+    <em:homepageURL>http://hail2u.net/archives/fxexts.html#places-in-tab</em:homepageURL>
 
     <em:targetApplication>
       <Description>
