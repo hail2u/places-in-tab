@@ -4,7 +4,7 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>places-in-tab@hail2u.net</em:id>
     <em:name>Places in Tab</em:name>
-    <em:version>0.1</em:version>
+    <em:version>0.2</em:version>
     <em:description>Display your bookmarks or pages you've viewd recentry (history) in tab instead of window like Safari.</em:description>
     <em:creator>Kyo Nagashima</em:creator>
     <em:homepageURL>http://hail2u.net/archives/fxexts.html#places-in-tab</em:homepageURL>
