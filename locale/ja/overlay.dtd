@@ -3,3 +3,6 @@
 
 <!ENTITY places-in-tab.history.command.label   "すべての履歴をタブに表示">
 <!ENTITY places-in-tab.history.command.tooltip "最近表示したページの履歴をタブに表示します">
+
+<!ENTITY places-in-tab.pref.hideOriginal.label     "デフォルトのメニュー項目を隠す">
+<!ENTITY places-in-tab.pref.hideOriginal.accesskey "H">

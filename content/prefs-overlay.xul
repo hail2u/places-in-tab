@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://browser/skin/" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://places-in-tab/locale/overlay.dtd">
+<dialog id="places-in-tab-prefs-overlay"
+  title="Places in Tab"
+  buttons="accept, cancel"
+  onload="placesInTab.loadPrefs();"
+  ondialogaccept="placesInTab.savePrefs();"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="application/javascript"
+    src="chrome://global/content/nsUserSettings.js"/>
+  <script type="application/javascript"
+    src="chrome://places-in-tab/content/overlay.js"/>
+
+  <vbox>
+    <checkbox id="prefHideOriginal"
+      label="&places-in-tab.pref.hideOriginal.label;"
+      accesskey="&places-in-tab.pref.hideOriginal.accesskey;"/>
+  </vbox>
+</dialog>

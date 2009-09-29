@@ -3,3 +3,6 @@
 
 <!ENTITY places-in-tab.history.command.label   "Show All History in Tab">
 <!ENTITY places-in-tab.history.command.tooltip "Display pages you've viewd recently">
+
+<!ENTITY places-in-tab.pref.hideOriginal.label     "Hide original menu items">
+<!ENTITY places-in-tab.pref.hideOriginal.accesskey "H">
