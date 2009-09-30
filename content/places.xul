@@ -72,6 +72,7 @@
         xmlns:html="http://www.w3.org/1999/xhtml"
         onload="PlacesOrganizer.init();"
         onunload="PlacesOrganizer.destroy();"
+        ondrop="return false;"
         width="&places.library.width;" height="&places.library.height;"
         screenX="10" screenY="10"
         persist="width height screenX screenY sizemode">
