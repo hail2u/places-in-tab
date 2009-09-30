@@ -1,8 +1,7 @@
-<!ENTITY places-in-tab.bookmark.command.label   "Organize Bookmarks in Tab">
-<!ENTITY places-in-tab.bookmark.command.tooltip "Display your bookmarks">
+<!ENTITY places-in-tab.show-history.command.label    "Show All History in Tab">
+<!ENTITY places-in-tab.show-history.command.tooltip  "Display pages you've viewd recently">
+<!ENTITY places-in-tab.show-bookmark.command.label   "Organize Bookmarks in Tab">
+<!ENTITY places-in-tab.show-bookmark.command.tooltip "Display your bookmarks">
 
-<!ENTITY places-in-tab.history.command.label   "Show All History in Tab">
-<!ENTITY places-in-tab.history.command.tooltip "Display pages you've viewd recently">
-
-<!ENTITY places-in-tab.pref.hideOriginal.label     "Hide original menu items">
-<!ENTITY places-in-tab.pref.hideOriginal.accesskey "H">
+<!ENTITY places-in-tab.pref.hide-original-menu-items.label     "Hide original menu items">
+<!ENTITY places-in-tab.pref.hide-original-menu-items.accesskey "H">

@@ -1,6 +1,8 @@
+Components.utils.import("resource://places-in-tab/vars.js");
+
 var placesInTab = {
   init: function () {
-    if (nsPreferences.getBoolPref("extensions.places-in-tab.hideOriginal", false)) {
+    if (nsPreferences.getBoolPref("extensions.places-in-tab.hide-original-menu-items", false)) {
       placesInTab.hideOriginal(document);
     }
   },
@@ -26,12 +28,12 @@ var placesInTab = {
   },
 
   loadPrefs: function () {
-    document.getElementById("prefHideOriginal").checked = nsPreferences.getBoolPref("extensions.places-in-tab.hideOriginal", false);
+    document.getElementById("hide-original-menu-items").checked = nsPreferences.getBoolPref("extensions.places-in-tab.hide-original-menu-items", false);
   },
 
   savePrefs: function () {
-    var boolHideOriginal = document.getElementById("prefHideOriginal").checked;
-    nsPreferences.setBoolPref("extensions.places-in-tab.hideOriginal", boolHideOriginal);
+    var boolHideOriginal = document.getElementById("hide-original-menu-items").checked;
+    nsPreferences.setBoolPref("extensions.places-in-tab.hide-original-menu-items", boolHideOriginal);
 
     if (boolHideOriginal) {
       placesInTab.hideOriginal(window.opener.opener.document);
@@ -41,5 +43,4 @@ var placesInTab = {
   }
 };
 
-Components.utils.import("resource://places-in-tab/vars.js");
 window.addEventListener("load", placesInTab.init, false);

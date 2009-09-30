@@ -8,29 +8,29 @@
     src="chrome://global/content/nsUserSettings.js"/>
 
   <menupopup id="goPopup">
-    <menuitem id="menu_placesInTab_showHistory"
-      label="&places-in-tab.history.command.label;"
+    <menuitem id="places-in-tab-show-histroty-menu"
+      label="&places-in-tab.show-history.command.label;"
       insertafter="menu_showAllHistory"
-      key="key_placesInTab_showHistory"
+      key="places-in-tab-show-history-key"
       onclick="checkForMiddleClick(this, event)"
       oncommand="placesInTab.showHistory(event);"/>
   </menupopup>
 
   <menupopup id="bookmarksMenuPopup">
-    <menuitem id="menu_placesInTab_showBookmarks"
-      label="&places-in-tab.bookmark.command.label;"
+    <menuitem id="places-in-tab-show-bookmarks-menu"
+      label="&places-in-tab.show-bookmark.command.label;"
       insertafter="bookmarksShowAll"
-      key="key_placesInTab_showBookmarks"
+      key="places-in-tab-show-nookmarks-key"
       onclick="checkForMiddleClick(this, event)"
       oncommand="placesInTab.showBookmarks(event);"/>
   </menupopup>
 
   <keyset id="mainKeyset">
-    <key id="key_placesInTab_showHistory"
+    <key id="places-in-tab-show-history-key"
       modifiers="accel alt"
       key="H"
       oncommand="placesInTab.showHistory();"/>
-    <key id="key_placesInTab_showBookmarks"
+    <key id="places-in-tab-show-nookmarks-key"
       modifiers="accel alt"
       key="B"
       oncommand="placesInTab.showBookmarks();"/>

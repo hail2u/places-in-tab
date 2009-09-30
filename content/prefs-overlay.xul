@@ -13,8 +13,8 @@
     src="chrome://places-in-tab/content/overlay.js"/>
 
   <vbox>
-    <checkbox id="prefHideOriginal"
-      label="&places-in-tab.pref.hideOriginal.label;"
-      accesskey="&places-in-tab.pref.hideOriginal.accesskey;"/>
+    <checkbox id="hide-original-menu-items"
+      label="&places-in-tab.pref.hide-original-menu-items.label;"
+      accesskey="&places-in-tab.pref.hide-original-menu-items.accesskey;"/>
   </vbox>
 </dialog>

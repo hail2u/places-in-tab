@@ -1,8 +1,7 @@
-<!ENTITY places-in-tab.bookmark.command.label   "ブックマークの管理をタブに表示">
-<!ENTITY places-in-tab.bookmark.command.tooltip "ブックマークをタブに表示します">
+<!ENTITY places-in-tab.show-history.command.label    "すべての履歴をタブに表示">
+<!ENTITY places-in-tab.show-history.command.tooltip  "最近表示したページの履歴をタブに表示します">
+<!ENTITY places-in-tab.show-bookmark.command.label   "ブックマークの管理をタブに表示">
+<!ENTITY places-in-tab.show-bookmark.command.tooltip "ブックマークをタブに表示します">
 
-<!ENTITY places-in-tab.history.command.label   "すべての履歴をタブに表示">
-<!ENTITY places-in-tab.history.command.tooltip "最近表示したページの履歴をタブに表示します">
-
-<!ENTITY places-in-tab.pref.hideOriginal.label     "デフォルトのメニュー項目を隠す">
-<!ENTITY places-in-tab.pref.hideOriginal.accesskey "H">
+<!ENTITY places-in-tab.pref.hide-original-menu-items.label     "デフォルトのメニュー項目を隠す">
+<!ENTITY places-in-tab.pref.hide-original-menu-items.accesskey "H">
