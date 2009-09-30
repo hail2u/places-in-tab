@@ -243,13 +243,13 @@
                       label="&deleteCmd.label;"
                       key="key_delete"
                       accesskey="&deleteCmd.accesskey;"/>
-            <menuseparator id="orgCloseSeparator"/>
+            <!-- menuseparator id="orgCloseSeparator"/>
 
             <menuitem id="orgClose"
                       key="placesKey_close" 
                       label="&file.close.label;"
                       accesskey="&file.close.accesskey;" 
-                      oncommand="close();"/>
+                      oncommand="close();"/ -->
           </menupopup>
         </menu>
         <menu accesskey="&views.accesskey;" class="menu-iconic"
