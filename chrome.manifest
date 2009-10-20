@@ -1,7 +1,8 @@
-content	places-in-tab	content/
-overlay	chrome://browser/content/browser.xul	chrome://places-in-tab/content/overlay.xul
+content places-in-tab content/
 
-locale	places-in-tab	en-US	locale/en-US/
-locale	places-in-tab	ja	locale/ja/
+overlay chrome://browser/content/browser.xul chrome://places-in-tab/content/overlay.xul
 
-resource	places-in-tab	modules/
+locale places-in-tab en-US locale/en-US/
+locale places-in-tab ja    locale/ja/
+
+resource places-in-tab modules/

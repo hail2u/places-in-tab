@@ -25,6 +25,25 @@
       oncommand="placesInTab.showBookmarks(event);"/>
   </menupopup>
 
+  <toolbarpalette id="BrowserToolbarPalette">
+    <toolbaritem id="places-in-tab-show-history-button">
+      <toolbarbutton id="history-button"
+        class="toolbarbutton-1"
+        label="&places-in-tab.show-history.command.label;"
+        tooltiptext="&places-in-tab.show-history.command.tooltip;"
+        onclick="checkForMiddleClick(this, event)"
+        oncommand="placesInTab.showHistory(event);"/>
+    </toolbaritem>
+    <toolbaritem id="places-in-tab-show-bookmarks-button">
+      <toolbarbutton id="bookmarks-button"
+        class="toolbarbutton-1"
+        label="&places-in-tab.show-bookmark.command.label;"
+        tooltiptext="&places-in-tab.show-bookmark.command.tooltip;"
+        onclick="checkForMiddleClick(this, event)"
+        oncommand="placesInTab.showBookmarks(event);"/>
+    </toolbaritem>
+  </toolbarpalette>
+
   <keyset id="mainKeyset">
     <key id="places-in-tab-show-history-key"
       modifiers="accel alt"
