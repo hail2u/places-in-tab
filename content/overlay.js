@@ -36,12 +36,16 @@ var placesInTab = {
     nsPreferences.setBoolPref("extensions.places-in-tab.hide-original-menu-items", boolHideOriginal);
 
     var wm = Components.classes["@mozilla.org/appshell/window-mediator;1"].getService(Components.interfaces.nsIWindowMediator);
-    var mainWindow = wm.getMostRecentWindow("navigator:browser");
+    var enumerator = wm.getEnumerator("navigator:browser");
 
-    if (boolHideOriginal) {
-      placesInTab.hideOriginal(mainWindow.document);
-    } else {
-      placesInTab.showOriginal(mainWindow.document);
+    while (enumerator.hasMoreElements()) {
+      var t = enumerator.getNext().document;
+
+      if (boolHideOriginal) {
+        placesInTab.hideOriginal(t);
+      } else {
+        placesInTab.showOriginal(t);
+      }
     }
   }
 };
