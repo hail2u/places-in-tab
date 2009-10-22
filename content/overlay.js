@@ -35,10 +35,13 @@ var placesInTab = {
     var boolHideOriginal = document.getElementById("hide-original-menu-items").checked;
     nsPreferences.setBoolPref("extensions.places-in-tab.hide-original-menu-items", boolHideOriginal);
 
+    var wm = Components.classes["@mozilla.org/appshell/window-mediator;1"].getService(Components.interfaces.nsIWindowMediator);
+    var mainWindow = wm.getMostRecentWindow("navigator:browser");
+
     if (boolHideOriginal) {
-      placesInTab.hideOriginal(window.opener.opener.document);
+      placesInTab.hideOriginal(mainWindow.document);
     } else {
-      placesInTab.showOriginal(window.opener.opener.document);
+      placesInTab.showOriginal(mainWindow.document);
     }
   }
 };
