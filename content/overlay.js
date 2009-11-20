@@ -1,19 +1,19 @@
-Components.utils.import("resource://places-in-tab/vars.js");
-
 var placesInTab = {
   init: function () {
+    Components.utils.import("resource://places-in-tab/vars.js", placesInTab);
+
     if (nsPreferences.getBoolPref("extensions.places-in-tab.hide-original-menu-items", false)) {
       placesInTab.hideOriginal(document);
     }
   },
 
   showBookmarks: function (event) {
-    query.leftPane = "AllBookmarks";
+    placesInTab.query.leftPane = "AllBookmarks";
     openUILink("chrome://places-in-tab/content/places.xul", event, false, true);
   },
 
   showHistory: function (event) {
-    query.leftPane = "History";
+    placesInTab.query.leftPane = "History";
     openUILink("chrome://places-in-tab/content/places.xul", event, false, true);
   },
 
